@@ -1,0 +1,11 @@
+c=['vaibhav','is','a','good','boy']
+b=['vaibhav','is','a','good','good']
+count=0
+for i in b:
+        if i in c:
+           count+=1
+           c.remove(i)
+if count==len(b):
+    print("yes")
+else:
+    print("no")"""
