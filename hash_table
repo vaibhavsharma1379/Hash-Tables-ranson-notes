@@ -1,0 +1,12 @@
+#solution 1
+c=['vaibhav','is','a','good','boy']
+b=['vaibhav','is','a','good','good']
+from collections import Counter
+b=Counter(c)
+a=Counter(b)
+if len(a-b)==0:
+    print("Yes")
+else:
+    print("No")
+    
+    
